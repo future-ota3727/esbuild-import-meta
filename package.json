@@ -8,8 +8,8 @@
     "cjs": "esbuild test.js --bundle --outdir=dist --platform=node --format=cjs --out-extension:.js=.cjs && node dist/test.cjs"
   },
   "dependencies": {
-    "@kintone/rest-api-client": "^5.0.7",
-    "esbuild": "^0.20.0"
+    "@kintone/rest-api-client": "5.0.8",
+    "esbuild": "0.20.0"
   },
   "volta": {
     "node": "18.18.0",
